@@ -1,0 +1,66 @@
+package main
+import “fmt”
+import “math”
+var Totalscore float64
+var Totalclasses int
+func main() {
+for ClassLevel/Class Grade
+Println(“Enter Class Level”)
+fmt.Scanln(&ClassLevel)
+Println(“Enter ClassGrade”)
+fmt.Scanln(&ClassGrade)
+if ClassLevel, ClassGrade = AP+, A
+Totalscore += 5.5
+Totalclasses += 1
+if else ClassLevel, ClassGrade = AP+, B
+Totalscore += 4.4
+Totalclasses += 1
+if else ClassLevel, ClassGrade = AP+, C
+Totalscore += 3.5
+Totalclasses += 1
+if else ClassLevel, ClassGrade = AP+, D
+Totalscore += 2.5
+Totalclasses += 1
+//
+if else ClassLevel, ClassGrade = AP, A
+Totalscore += 5.0
+Totalclasses += 1 
+if else ClassLevel, ClassGrade = AP, B
+Totalscore += 4.0
+Totalclasses += 1
+if else ClassLevel, ClassGrade = AP, C
+Totalscore += 3.0
+Totalclasses += 1
+if else ClassLevel, ClassGrade = AP, D
+Totalscore += 2.0
+Totalclasses += 1
+//
+if else ClassLevel, ClassGrade = Honors, A
+Totalscore += 4.5
+Totalclasses += 1
+if else ClassLevel, ClassGrade = Honors, B
+Totalscore += 3.5
+Totalclasses += 1
+if else ClassLevel, ClassGrade = Honors, C
+Totalscore += 2.5
+Totalclasses += 1
+if else ClassLevel, ClassGrade = Honors, D
+Totalscore += 1.5
+Totalclasses += 1
+//
+if else ClassLevel, ClassGrade = CP, A
+Totalscore += 4.0
+Totalclasses += 1
+if else ClassLevel, ClassGrade = CP, B
+Totalscore += 3.0
+Totalclasses += 1
+if else ClassLevel, ClassGrade = CP, C
+Totalscore += 2.0
+Totalclasses += 1
+if else ClassLevel, ClassGrade = CP, D
+Totalscore += 1.0
+Totalclasses += 1
+//
+fmt.Println(Totalscore / Totalclasses)
+fmt.Println(“This is your Grade Point Average (GPA)”)
+}
